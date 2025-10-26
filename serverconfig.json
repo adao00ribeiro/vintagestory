@@ -9,7 +9,7 @@
   "Port": 42420,
   "Upnp": false,
   "CompressPackets": true,
-  "AdvertiseServer": false,
+  "AdvertiseServer": true,
   "MaxClients": 25,
   "MaxClientsInQueue": 15,
   "PassTimeWhenEmpty": false,
