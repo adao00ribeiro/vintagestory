@@ -16,15 +16,15 @@ RUN curl -L -o vintagestory-client.tar.gz "https://cdn.vintagestory.at/gamefiles
     && rm vintagestory-client.tar.gz \
     && chmod +x Vintagestory
 
-#RUN mkdir -p /root/.config/VintagestoryData/BackupSaves    
-#RUN mkdir -p /root/.config/VintagestoryData/Backups
-#RUN mkdir -p /root/.config/VintagestoryData/Cache    
-#RUN mkdir -p /root/.config/VintagestoryData/Logs    
-#RUN mkdir -p /root/.config/VintagestoryData/Macros    
-#RUN mkdir -p /root/.config/VintagestoryData/Mods    
-#RUN mkdir -p /root/.config/VintagestoryData/Playerdata    
-#RUN mkdir -p /root/.config/VintagestoryData/Saves
-#RUN mkdir -p /root/.config/VintagestoryData/WorldEdit
+#RUN mkdir -p /root/.config/VintagestoryData/BackupSaves PERSISTIDO  
+#RUN mkdir -p /root/.config/VintagestoryData/Backups PERSISTIDO
+#RUN mkdir -p /root/.config/VintagestoryData/Cache   PERSISTIDO  
+#RUN mkdir -p /root/.config/VintagestoryData/Logs    PERSISTIDO    
+#RUN mkdir -p /root/.config/VintagestoryData/Macros  PERSISTIDO  
+#RUN mkdir -p /root/.config/VintagestoryData/Mods    NAO
+#RUN mkdir -p /root/.config/VintagestoryData/Playerdata  PERSISTIDO   
+#RUN mkdir -p /root/.config/VintagestoryData/Saves PERSISTIDO
+#RUN mkdir -p /root/.config/VintagestoryData/WorldEdit NAO
 
 COPY VintagestoryData/Mods/ /root/.config/VintagestoryData/Mods
 COPY VintagestoryData/serverconfig.json /root/.config/VintagestoryData/serverconfig.json
