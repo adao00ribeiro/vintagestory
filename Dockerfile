@@ -28,11 +28,14 @@ RUN curl -L -o vintagestory-client.tar.gz "https://cdn.vintagestory.at/gamefiles
 
 COPY VintagestoryData/Mods/ /root/.config/VintagestoryData/Mods
 COPY VintagestoryData/serverconfig.json /root/.config/VintagestoryData/serverconfig.json
+COPY VintagestoryData/ModConfig /root/.config/VintagestoryData/ModConfig
 
 
 EXPOSE 42420/tcp
 EXPOSE 42420/udp
-#COPY start-server.sh /app/start-server.sh
-#RUN chmod +x /app/start-server.sh
+
 CMD ["./VintagestoryServer"]
-#CMD ["/app/start-server.sh"]
+
+# Healthcheck simples (ajuste a porta/endpoint conforme necessário)
+HEALTHCHECK --interval=10s --timeout=5s --retries=10 \
+  CMD curl -f http://localhost:42420 || exit 1
