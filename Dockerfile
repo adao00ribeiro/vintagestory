@@ -16,7 +16,8 @@ RUN curl -L -o vintagestory-client.tar.gz "https://cdn.vintagestory.at/gamefiles
     && rm vintagestory-client.tar.gz \
     && chmod +x Vintagestory
     
-COPY VintagestoryData/serverconfig.json /app/serverconfig.json
+COPY VintagestoryData /app/VintagestoryData
+
 RUN mkdir -p /root/.config/VintagestoryData \
     && cp /app/VintagestoryData/serverconfig.json /root/.config/VintagestoryData/serverconfig.json
 # Cria diretórios persistentes
