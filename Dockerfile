@@ -23,9 +23,9 @@ RUN mkdir -p /root/.config/VintagestoryData \
 # Cria diretórios persistentes
 RUN mkdir -p /root/.config/VintagestoryData/Worlds /root/.config/VintagestoryData/Saves /root/.config/VintagestoryData/Logs /root/.config/VintagestoryData/mods
 
-COPY VintagestoryData/mods/ /root/.config/VintagestoryData
+COPY app/VintagestoryData/mods/ /root/.config/VintagestoryData
 
-VOLUME ["/data", "/mods" , "playerData"]
+VOLUME ["app/VintagestoryData/mods/"]
 VOLUME ["/root/.config/VintagestoryData"]
 
 EXPOSE 42420/tcp
