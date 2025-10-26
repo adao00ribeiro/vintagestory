@@ -20,7 +20,7 @@ COPY VintagestoryData/Mods/ /root/.config/VintagestoryData/Mods
 COPY VintagestoryData/serverconfig.json /root/.config/VintagestoryData/serverconfig.json
 
 VOLUME ["/root/.config/VintagestoryData/Saves"]
-VOLUME ["/root/.config/VintagestoryData/PlayerData"]
+VOLUME ["/root/.config/VintagestoryData/Playerdata"]
 
 EXPOSE 42420/tcp
 EXPOSE 42420/udp
