@@ -22,6 +22,8 @@ RUN mkdir -p /root/.config/VintagestoryData \
 # Cria diretórios persistentes
 RUN mkdir -p /data/Worlds /data/Saves /data/Logs /mods
 
+COPY mods/ /mods/
+
 VOLUME ["/data", "/mods" , "playerData"]
 VOLUME ["/root/.config/VintagestoryData"]
 
