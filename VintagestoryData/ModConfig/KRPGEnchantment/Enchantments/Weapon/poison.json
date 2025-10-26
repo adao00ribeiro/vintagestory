@@ -1,0 +1,37 @@
+{
+  "Enabled": true,
+  "Code": "poison",
+  "Category": "DamageTick",
+  "LoreCode": "enchantment-poison",
+  "LoreChapterID": 18,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Knife",
+    "Axe",
+    "Club",
+    "Sword",
+    "Spear",
+    "Bow",
+    "Sling",
+    "Drill",
+    "Halberd",
+    "Mace",
+    "Pike",
+    "Polearm",
+    "Poleaxe",
+    "Staff",
+    "Warhammer",
+    "Javelin",
+    "Crossbow",
+    "Firearm",
+    "Wand"
+  ],
+  "Modifiers": {
+    "DamageResist": "resistpoison",
+    "TickMultiplier": 6,
+    "TickDuration": 1000,
+    "DamageMultiplier": 0.1,
+    "HungerMultiplier": 100
+  },
+  "Version": 1.01
+}

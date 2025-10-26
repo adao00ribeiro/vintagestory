@@ -1,0 +1,6 @@
+{
+  "Comment": "maxCharge controls the maximum charge for the jump. Careful, higher values may launch you into the stratospheere. chargeRate controls the rate of charging the jump to max.",
+  "maxCharge": 0.15,
+  "chargeRate": 0.003,
+  "enableSprintJump": true
+}

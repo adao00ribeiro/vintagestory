@@ -1,0 +1,24 @@
+version: 2
+
+# Applied immediately, does not require world reload
+aiming_cursor_type: Fixed # value from: None, Vanilla, Fixed, Moving (default: Fixed) 
+aiming_difficulty: 1 # from 0 to 2 (default: 1) 
+reload_speed: 1 # from 0.3 to 3 (default: 1) 
+damage_multiplier: 1 # from 0.1 to 5 (default: 1) 
+trait_requirement: Required # value from: Required, Not Required (default: Required) 
+dispersion: 1 # from 0 to 5 (default: 1) 
+magazine_size: 5 #  (default: 5) 
+cancel_reload_in_the_air: true #  (default: True) 
+cancel_reload_while_mounted: true #  (default: True) 
+
+
+###################################
+## Crossbows durability settings ##
+###################################
+
+durability_simple: 240 # greater than 1 (default: 240) 
+durability_repeating: 400 # greater than 1 (default: 400) 
+durability_stirrup: 750 # greater than 1 (default: 750) 
+durability_latch: 750 # greater than 1 (default: 750) 
+durability_goatsfoot: 900 # greater than 1 (default: 900) 
+durability_windlass: 600 # greater than 1 (default: 600) 

@@ -1,0 +1,26 @@
+{
+  "Title": "Informações do Servidor/Server Informations",
+  "Format": 0,
+  "ContentLines": [
+  "<strong><font size=\"20\" color=\"#FFEE00\" align=\"center\">Bem-vindo à Esauna | Welcome to Esauna</font></strong><br>",
+  "Seja muito bem-vindo ao <strong>Servidor Esauna</strong> — um dos primeiros servidores <strong>“BR | LATAM | EN”</strong> com mods para <strong>Vintage Story</strong>.",
+  "Aqui, a diversão, o respeito e o espírito de comunidade são nossas maiores prioridades.",
+  "Nosso objetivo é oferecer uma experiência única, onde cada jogador possa explorar, construir e se divertir ao máximo.",
+  "Com a sua participação, podemos tornar a <strong>Esauna</strong> ainda mais vibrante e acolhedora. Junte-se a nós nessa jornada e ajude a moldar o futuro da nossa comunidade!<br><br>",
+  "Welcome to the <strong>Esauna Server</strong> — one of the very first <strong>“BR | LATAM | EN”</strong> servers with mods for <strong>Vintage Story</strong>.",
+  "Here, fun, respect, and a strong sense of community are our top priorities.",
+  "Our goal is to create a unique experience where every player can explore, build, and enjoy the game to the fullest.",
+  "With your participation, we can make <strong>Esauna</strong> an even more vibrant and welcoming place. Join us on this journey and help shape the future of our community!"
+  ],
+  "Content": null,
+  "Width": 980,
+  "Height": 720,
+  "OpenOnEveryJoin": true,
+  "OnlyOncePerSession": true,
+  "OnlyOncePerVersion": true,
+  "VersionLabel": "2025-10-21",
+  "ScrollBarWidth": 18,
+  "ScrollEstimateMultiplier": 1.0,
+  "ScrollExtraPixels": 0,
+  "ScrollOverrideHeightPx": 0
+}

@@ -1,0 +1,31 @@
+{
+  "EntityTickMs": 250,
+  "MaxEnchantsPerItem": 4,
+  "EnchantTimeHours": 1.0,
+  "LatentEnchantResetDays": 7.0,
+  "MaxLatentEnchants": 3,
+  "MaxEnchantsByCategory": {
+    "ControlArea": -1,
+    "ControlTarget": -1,
+    "DamageArea": -1,
+    "DamageTarget": -1,
+    "DamageTick": -1,
+    "HealArea": -1,
+    "HealTarget": -1,
+    "HealTick": -1,
+    "ResistDamage": -1,
+    "Universal": -1
+  },
+  "LegacyReagentPotential": false,
+  "ChargeReagentHours": 1.0,
+  "MaxReagentCharge": 5,
+  "ChargePerGear": 1.0,
+  "ValidReagents": {
+    "game:gem-emerald-rough": 1,
+    "game:gem-diamond-rough": 1,
+    "game:gem-olivine_peridot-rough": 1
+  },
+  "ResetEnchantConfigs": false,
+  "Debug": false,
+  "Version": 1.02
+}

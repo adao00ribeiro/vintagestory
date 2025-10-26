@@ -1,0 +1,125 @@
+{
+  "ResolveChestNames": true,
+  "ResolveMechanicalBlockIssues": true,
+  "ResolveQuernAndAxleRelationship": true,
+  "CraftableCage": false,
+  "CraftableWoodenRails": false,
+  "DecorativeQuern": true,
+  "FunctionalQuern": false,
+  "ArchimedesScrew": true,
+  "ArmorStand": true,
+  "Barrel": true,
+  "Bed": true,
+  "Cage": true,
+  "Chair": true,
+  "Chest": true,
+  "Chute": true,
+  "ChuteSectionItem": true,
+  "CrudeDoor": true,
+  "DisplayCase": true,
+  "Forge": true,
+  "FruitPress": true,
+  "Henbox": true,
+  "Hopper": true,
+  "Ladder": true,
+  "MechanicalAngledGears": true,
+  "MechanicalAxle": true,
+  "MechanicalBrake": true,
+  "MechanicalClutch": true,
+  "MechanicalHelveHammerBase": true,
+  "MechanicalHelveHammerItem": true,
+  "MechanicalLargeGear": true,
+  "MechanicalLargeGearSectionItem": true,
+  "MechanicalPulverizer": true,
+  "MechanicalToggle": true,
+  "MechanicalTransmission": true,
+  "MechanicalWindmillRotor": true,
+  "MetalDoor": true,
+  "Moldrack": true,
+  "OmokTabletop": true,
+  "Palisade": true,
+  "Shelf": true,
+  "Sieve": true,
+  "Sign": true,
+  "Signpost": true,
+  "SodRoofing": true,
+  "StonePath": true,
+  "SupportBeamMetal": true,
+  "SupportChain": true,
+  "Table": true,
+  "Toolrack": true,
+  "TroughLarge": true,
+  "TroughSmall": true,
+  "WoodBucket": true,
+  "WoodenPan": true,
+  "WoodenRails": true,
+  "ChuteFlowRates": {
+    "archimedesscrew": {
+      "default": 1.0
+    },
+    "chute": {
+      "default": 1.0
+    },
+    "hopper": {
+      "default": 1.0
+    }
+  },
+  "ChuteQuantitySlots": {
+    "archimedesscrew": {
+      "default": 1
+    },
+    "chute": {
+      "default": 1
+    },
+    "hopper": {
+      "default": 4
+    }
+  },
+  "ChuteCheckRateMs": {
+    "archimedesscrew": {
+      "default": 500
+    }
+  },
+  "ChuteCraftable": {
+    "archimedesscrew": {
+      "tinbronze": true,
+      "bismuthbronze": true,
+      "blackbronze": true,
+      "iron": true,
+      "meteoriciron": true,
+      "steel": true
+    },
+    "chute": {
+      "tinbronze": true,
+      "bismuthbronze": true,
+      "blackbronze": true,
+      "iron": true,
+      "meteoriciron": true,
+      "steel": true
+    },
+    "chutesection": {
+      "tinbronze": true,
+      "bismuthbronze": true,
+      "blackbronze": true,
+      "iron": true,
+      "meteoriciron": true,
+      "steel": true
+    },
+    "hopper": {
+      "tinbronze": true,
+      "bismuthbronze": true,
+      "blackbronze": true,
+      "iron": true,
+      "meteoriciron": true,
+      "steel": true
+    }
+  },
+  "OverrideChestQuantitySlots": false,
+  "ChestQuantitySlots": {
+    "default": 16
+  },
+  "OverrideDoubleChestQuantitySlots": false,
+  "DoubleChestQuantitySlots": {
+    "default": 36
+  }
+}

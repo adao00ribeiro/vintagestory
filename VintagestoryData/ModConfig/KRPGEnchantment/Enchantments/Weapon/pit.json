@@ -1,0 +1,34 @@
+{
+  "Enabled": true,
+  "Code": "pit",
+  "Category": "ControlArea",
+  "LoreCode": "enchantment-pit",
+  "LoreChapterID": 9,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Knife",
+    "Axe",
+    "Club",
+    "Sword",
+    "Spear",
+    "Bow",
+    "Sling",
+    "Drill",
+    "Halberd",
+    "Mace",
+    "Pike",
+    "Polearm",
+    "Poleaxe",
+    "Staff",
+    "Warhammer",
+    "Javelin",
+    "Crossbow",
+    "Firearm",
+    "Wand"
+  ],
+  "Modifiers": {
+    "MulXZ": 0.5,
+    "MulY": 1.0
+  },
+  "Version": 1.0
+}

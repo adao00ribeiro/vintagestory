@@ -1,0 +1,24 @@
+version: 0
+
+
+#############
+## Hotkeys ##
+#############
+
+sheath_bow_hotkey: Ranged (main hand) # value from: Ranged (main hand), Ranged (off hand), Melee (main hand), Melee (off hand), Tool, Additional (default: Ranged (main hand)) 
+sheath_sling_hotkey: Ranged (main hand) # value from: Ranged (main hand), Ranged (off hand), Melee (main hand), Melee (off hand), Tool, Additional (default: Ranged (main hand)) 
+sheath_javelin_hotkey: Ranged (main hand) # value from: Ranged (main hand), Ranged (off hand), Melee (main hand), Melee (off hand), Tool, Additional (default: Ranged (main hand)) 
+sheath_sword_hotkey: Melee (main hand) # value from: Ranged (main hand), Ranged (off hand), Melee (main hand), Melee (off hand), Tool, Additional (default: Melee (main hand)) 
+sheath_pistol_hotkey: Ranged (main hand) # value from: Ranged (main hand), Ranged (off hand), Melee (main hand), Melee (off hand), Tool, Additional (default: Ranged (main hand)) 
+sheath_pistol_offhand_hotkey: Ranged (off hand) # value from: Ranged (main hand), Ranged (off hand), Melee (main hand), Melee (off hand), Tool, Additional (default: Ranged (off hand)) 
+
+
+##################
+## Slots number ##
+##################
+
+pouch_fierarms_slots: 5 # greater than 1 (default: 5) 
+pouch_sling_slots: 2 # greater than 1 (default: 2) 
+quiver_arrows_slots: 3 # greater than 1 (default: 3) 
+quiver_bolts_slots: 2 # greater than 1 (default: 2) 
+quiver_javelins_slots: 4 # greater than 1 (default: 4) 

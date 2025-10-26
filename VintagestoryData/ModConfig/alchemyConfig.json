@@ -1,0 +1,22 @@
+{
+  "DisableRecallPotion": false,
+  "DisableGlowPotion": false,
+  "DisableWaterBreathePotion": false,
+  "DisableNutritionPotion": false,
+  "DisableTemporalPotion": false,
+  "DisableArcherPotion": false,
+  "DisableHealingEffectPotion": false,
+  "DisableHungerEnhancePotion": false,
+  "DisableHungerSupressPotion": false,
+  "DisableHunterPotion": false,
+  "DisableLooterPotion": false,
+  "DisableMeleePotion": false,
+  "DisableMiningPotion": false,
+  "DisablePoisonPotion": false,
+  "DisablePredatorPotion": false,
+  "DisableRegenPotion": false,
+  "DisableScentMaskPotion": false,
+  "DisableSpeedPotion": false,
+  "DisableVitalityPotion": false,
+  "DisableDebugPotions": true
+}

@@ -1,0 +1,22 @@
+{
+  "Enabled": true,
+  "Code": "protection",
+  "Category": "ResistDamage",
+  "LoreCode": "enchantment-protection",
+  "LoreChapterID": 10,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Armor-Head",
+    "Armor-Body",
+    "Armor-Legs",
+    "ArmorHead",
+    "ArmorBody",
+    "ArmorLegs",
+    "Shield"
+  ],
+  "Modifiers": {
+    "DamageResist": "bluntattack;piercingattack;slashingattack;",
+    "PowerMultiplier": 0.1
+  },
+  "Version": 1.0
+}

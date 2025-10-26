@@ -1,0 +1,34 @@
+{
+  "Enabled": true,
+  "Code": "igniting",
+  "Category": "DamageTick",
+  "LoreCode": "enchantment-igniting",
+  "LoreChapterID": 6,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Knife",
+    "Axe",
+    "Club",
+    "Sword",
+    "Spear",
+    "Bow",
+    "Sling",
+    "Drill",
+    "Halberd",
+    "Mace",
+    "Pike",
+    "Polearm",
+    "Poleaxe",
+    "Staff",
+    "Warhammer",
+    "Javelin",
+    "Crossbow",
+    "Firearm",
+    "Wand"
+  ],
+  "Modifiers": {
+    "TickMultiplier": 1,
+    "TickDuration": 12500
+  },
+  "Version": 1.0
+}

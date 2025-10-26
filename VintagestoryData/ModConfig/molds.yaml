@@ -1,0 +1,58 @@
+version: 1
+
+# Enable or disable the 1-nail mold recipe.
+enable-1nailmold: true #  (default: True) 
+
+# Enable or disable the 2x knife mold recipe.
+enable-2xknifemold: true #  (default: True) 
+
+# Enable or disable the Arrow mold recipe.
+enable-arrowmold: true #  (default: True) 
+
+# Enable or disable the Chisel mold recipe.
+enable-chiselmold: true #  (default: True) 
+
+# Enable or disable the Kluch mold recipe.
+enable-kluchmold: true #  (default: True) 
+
+# Enable or disable the Plate mold recipe.
+enable-plate: true #  (default: True) 
+
+# Enable or disable the Ringmail mold recipe.
+enable-ringmail: true #  (default: True) 
+
+# Enable or disable the Rod mold recipe.
+enable-rod: true #  (default: True) 
+
+# Enable or disable the Sawblade mold recipe.
+enable-sawblade: true #  (default: True) 
+
+# Enable or disable the Scythe mold recipe.
+enable-scythemold: true #  (default: True) 
+
+# Enable or disable the Shears mold recipe.
+enable-shears: true #  (default: True) 
+
+# Enable or disable the Spear mold recipe.
+enable-spearmold: true #  (default: True) 
+
+# Enable or disable the 4-Ingot mold recipe.
+enable-4_ingotmold: true #  (default: True) 
+
+# Enable or disable the 8-Ingot mold recipe.
+enable-8_ingotmold: true #  (default: True) 
+
+# Enable or disable the Chains recipe.
+enable-chains: true #  (default: True) 
+
+# Enable or disable the Chutes recipe.
+enable-chutes: true #  (default: True) 
+
+# Enable or disable the Flint Scythe recipe.
+enable-flint-scythe: true #  (default: True) 
+
+# Enable or disable the Wood Hammer recipe.
+enable-wood-hammer: true #  (default: True) 
+
+# Enable or disable the Flint Chisel knapping recipe.
+enable-flint-chisel: true #  (default: True) 

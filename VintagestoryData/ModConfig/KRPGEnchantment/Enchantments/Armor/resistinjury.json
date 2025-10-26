@@ -1,0 +1,22 @@
+{
+  "Enabled": true,
+  "Code": "resistinjury",
+  "Category": "ResistDamage",
+  "LoreCode": "enchantment-resistinjury",
+  "LoreChapterID": 15,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Armor-Head",
+    "Armor-Body",
+    "Armor-Legs",
+    "ArmorHead",
+    "ArmorBody",
+    "ArmorLegs",
+    "Shield"
+  ],
+  "Modifiers": {
+    "DamageResist": "injury",
+    "PowerMultiplier": 0.1
+  },
+  "Version": 1.0
+}

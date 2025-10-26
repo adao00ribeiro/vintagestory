@@ -1,0 +1,36 @@
+{
+  "Enabled": true,
+  "Code": "lightning",
+  "Category": "DamageArea",
+  "LoreCode": "enchantment-lightning",
+  "LoreChapterID": 8,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Knife",
+    "Axe",
+    "Club",
+    "Sword",
+    "Spear",
+    "Bow",
+    "Sling",
+    "Drill",
+    "Halberd",
+    "Mace",
+    "Pike",
+    "Polearm",
+    "Poleaxe",
+    "Staff",
+    "Warhammer",
+    "Javelin",
+    "Crossbow",
+    "Firearm",
+    "Wand"
+  ],
+  "Modifiers": {
+    "Delay": 500,
+    "PowerMultiplier": 0.5,
+    "MaxBonusStrikes": 1,
+    "EffectRadius": 4
+  },
+  "Version": 1.0
+}

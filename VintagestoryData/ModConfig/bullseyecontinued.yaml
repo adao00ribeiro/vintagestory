@@ -1,0 +1,44 @@
+version: 5
+
+
+##########
+## Bows ##
+##########
+
+bow_aiming_difficulty: 1 # from 0 to 2 (default: 1) 
+bow_two_handed: true #  (default: True) 
+
+# Does not require world reload to apply
+bows_aiming_cursor_type: Moving # value from: None, Vanilla, Fixed, Moving (default: Moving) 
+
+# Does not require world reload to apply
+bow_aiming_vertical_limit: 1 # from 0 to 2 (default: 1) 
+
+# Does not require world reload to apply
+bow_aiming_horisontal_limit: 1 # from 0 to 2 (default: 1) 
+bows_damage_multiplier: 1 # from 0.2 to 5 (default: 1) 
+arrow_ping_sound_on_hit: true #  (default: True) 
+
+
+############
+## Slings ##
+############
+
+
+# Does not require world reload to apply
+slings_aiming_cursor_type: Fixed # value from: None, Vanilla, Fixed, Moving (default: Fixed) 
+slings_damage_multiplier: 1 # from 0.2 to 5 (default: 1) 
+slings_aiming_difficulty: 1 # from 0 to 100 (default: 1) 
+slings_dispersion_multiplier: 1 # from 0.2 to 10 (default: 1) 
+
+
+############
+## Spears ##
+############
+
+spear_types_enabled: true #  (default: True) 
+spears_enabled: false #  (default: False) 
+spears_aiming_cursor_type: Fixed # value from: None, Vanilla, Fixed, Moving (default: Fixed) 
+spears_aiming_difficulty: 1 # from 0 to 2 (default: 1) 
+spears_thrown_distance: 1 # from 0.5 to 5 (default: 1) 
+spears_range_damage_multiplier: 1 # from 0.2 to 5 (default: 1) 

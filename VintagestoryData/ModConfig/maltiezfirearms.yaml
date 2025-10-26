@@ -1,0 +1,26 @@
+version: 3
+damage_multiplier: 1 # from 0.1 to 5 (default: 1) 
+trait_requirement: Required # value from: Required, Not Required (default: Required) 
+
+# Applied instantly, do not need world reload
+aiming_cursor_type: None # value from: None, Vanilla, Fixed, Moving (default: None) 
+aiming_difficulty: 1 # from 0 to 2 (default: 1) 
+blunderbuss_spread: 120 # from 0 to 300 (default: 120) 
+firearms_spread: 1 # from 0 to 5 (default: 1) 
+cancel_reload_on_inair: true #  (default: True) 
+schematic_drop_chance: 1 # from 0 to 10 (default: 1) 
+firearms_reload_speed: 1 # from 0.3 to 3 (default: 1) 
+
+
+###########################
+## Firearms durabilities ##
+###########################
+
+durability_wheellock_pistol: 600 # greater than 1 (default: 600) 
+durability_wheellock_bossi: 750 # greater than 1 (default: 750) 
+durability_matchlock_arquebus: 500 # greater than 1 (default: 500) 
+durability_matchlock_blunderbuss: 400 # greater than 1 (default: 400) 
+durability_flintlock_pistol: 900 # greater than 1 (default: 900) 
+durability_flintlock_blunderbuss: 600 # greater than 1 (default: 600) 
+durability_flintlock_carbine: 750 # greater than 1 (default: 750) 
+durability_flintlock_musket: 600 # greater than 1 (default: 600) 

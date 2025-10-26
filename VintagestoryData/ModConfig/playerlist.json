@@ -1,0 +1,9 @@
+{
+  "thresholds": [
+    65,
+    125,
+    500
+  ],
+  "header": "<strong>ESAUNA </strong>\n<i>{Day} {Month}, Ano & Year {Year}</i>\n<i>—[ {CurPlayers}/{MaxPlayers} ]—</i>",
+  "footer": "<i>discord.gg/</i><i>fKamftNU2G</i>"
+}

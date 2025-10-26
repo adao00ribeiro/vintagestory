@@ -1,0 +1,22 @@
+{
+  "Enabled": true,
+  "Code": "resistfire",
+  "Category": "ResistDamage",
+  "LoreCode": "enchantment-resistfire",
+  "LoreChapterID": 12,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Armor-Head",
+    "Armor-Body",
+    "Armor-Legs",
+    "ArmorHead",
+    "ArmorBody",
+    "ArmorLegs",
+    "Shield"
+  ],
+  "Modifiers": {
+    "DamageResist": "fire",
+    "PowerMultiplier": 0.1
+  },
+  "Version": 1.0
+}

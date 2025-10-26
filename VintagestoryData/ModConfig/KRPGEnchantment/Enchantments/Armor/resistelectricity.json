@@ -1,0 +1,22 @@
+{
+  "Enabled": true,
+  "Code": "resistelectricity",
+  "Category": "ResistDamage",
+  "LoreCode": "enchantment-resistelectricity",
+  "LoreChapterID": 11,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Armor-Head",
+    "Armor-Body",
+    "Armor-Legs",
+    "ArmorHead",
+    "ArmorBody",
+    "ArmorLegs",
+    "Shield"
+  ],
+  "Modifiers": {
+    "DamageResist": "electricity",
+    "PowerMultiplier": 0.1
+  },
+  "Version": 1.0
+}

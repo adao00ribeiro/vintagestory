@@ -1,0 +1,22 @@
+{
+  "Enabled": true,
+  "Code": "resistheal",
+  "Category": "ResistDamage",
+  "LoreCode": "enchantment-resistheal",
+  "LoreChapterID": 14,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Armor-Head",
+    "Armor-Body",
+    "Armor-Legs",
+    "ArmorHead",
+    "ArmorBody",
+    "ArmorLegs",
+    "Shield"
+  ],
+  "Modifiers": {
+    "DamageResist": "heal",
+    "PowerMultiplier": 0.1
+  },
+  "Version": 1.0
+}

@@ -1,0 +1,35 @@
+{
+  "Enabled": true,
+  "Code": "frost",
+  "Category": "DamageTarget",
+  "LoreCode": "enchantment-frost",
+  "LoreChapterID": 3,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Knife",
+    "Axe",
+    "Club",
+    "Sword",
+    "Spear",
+    "Bow",
+    "Sling",
+    "Drill",
+    "Halberd",
+    "Mace",
+    "Pike",
+    "Polearm",
+    "Poleaxe",
+    "Staff",
+    "Warhammer",
+    "Javelin",
+    "Crossbow",
+    "Firearm",
+    "Wand"
+  ],
+  "Modifiers": {
+    "DamageResist": "resistfrost",
+    "MaxDamage": 3,
+    "PowerMultiplier": 0.1
+  },
+  "Version": 1.01
+}

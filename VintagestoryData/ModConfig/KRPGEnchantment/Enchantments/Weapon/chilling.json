@@ -1,0 +1,33 @@
+{
+  "Enabled": true,
+  "Code": "chilling",
+  "Category": "Weapon",
+  "LoreCode": "enchantment-chilling",
+  "LoreChapterID": 0,
+  "MaxTier": 5,
+  "ValidToolTypes": [
+    "Knife",
+    "Axe",
+    "Club",
+    "Sword",
+    "Spear",
+    "Bow",
+    "Sling",
+    "Drill",
+    "Halberd",
+    "Mace",
+    "Pike",
+    "Polearm",
+    "Poleaxe",
+    "Staff",
+    "Warhammer",
+    "Javelin",
+    "Crossbow",
+    "Firearm",
+    "Wand"
+  ],
+  "Modifiers": {
+    "PowerMultiplier": -10.0
+  },
+  "Version": 1.0
+}

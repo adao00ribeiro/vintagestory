@@ -1,0 +1,7 @@
+{
+  "DodgeCooldown": 1.5,
+  "DodgeSpeed": 100.5,
+  "DodgeForwardWhenStationary": true,
+  "DodgeInAir": false,
+  "VigorStaminaCost": 20
+}

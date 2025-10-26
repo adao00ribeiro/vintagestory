@@ -1,0 +1,51 @@
+version: 1
+
+
+########################
+## Head clay oil lamp ##
+########################
+
+clayoillamp_fuel_capacity: 12 #  (default: 12) 
+clayoillamp_fuel_efficiency: 1 # from 0 to 4 (default: 1) 
+
+# Max fration of fuel item that can be wasted during refueling due fuel item giving more fuel that is missing in the lamp.
+clayoillamp_max_fuel_waste_fraction: 0.5 # from 0 to 1 (default: 0.5) 
+clayoillamp_light_output: 4 # from 1 to 32 (default: 4) 
+
+
+###################
+## Head oil lamp ##
+###################
+
+oillamp_fuel_capacity: 8 #  (default: 8) 
+oillamp_fuel_efficiency: 1 # from 0 to 4 (default: 1) 
+
+# Max fration of fuel item that can be wasted during refueling due fuel item giving more fuel that is missing in the lamp.
+oillamp_max_fuel_waste_fraction: 0.5 # from 0 to 1 (default: 0.5) 
+oillamp_light_output: 6 # from 1 to 32 (default: 6) 
+oillamp_silver_lining_bonus: 2 # from 1 to 32 (default: 2) 
+oillamp_gold_lining_bonus: 4 # from 1 to 32 (default: 4) 
+
+
+######################
+## Head candle lamp ##
+######################
+
+candlelamp_fuel_capacity: 16 #  (default: 16) 
+candlelamp_fuel_efficiency: 1 # from 0 to 4 (default: 1) 
+candlelamp_max_fuel_waste_fraction: 0.5 # from 0 to 1 (default: 0.5) 
+candlelamp_light_output: 8 # from 1 to 32 (default: 8) 
+candlelamp_silver_lining_bonus: 2 # from 1 to 32 (default: 2) 
+candlelamp_gold_lining_bonus: 4 # from 1 to 32 (default: 4) 
+
+
+#######################
+## Head carbide lamp ##
+#######################
+
+carbidelamp_fuel_capacity: 32 #  (default: 32) 
+carbidelamp_fuel_efficiency: 1 # from 0 to 4 (default: 1) 
+carbidelamp_max_fuel_waste_fraction: 0.5 # from 0 to 1 (default: 0.5) 
+carbidelamp_light_output: 12 # from 1 to 32 (default: 12) 
+carbidelamp_silver_lining_bonus: 3 # from 1 to 32 (default: 3) 
+carbidelamp_gold_lining_bonus: 6 # from 1 to 32 (default: 6) 
