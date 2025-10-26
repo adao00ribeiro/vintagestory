@@ -1,16 +1,19 @@
 #!/bin/bash
 
-# Inicia o servidor em background
-./VintagestoryServer &
+# Diretórios persistentes
+mkdir -p /vintagestory-persistent/Saves
+mkdir -p /vintagestory-persistent/Playerdata
 
-SERVER_PID=$!
+# Pasta original do servidor
+mkdir -p /root/.config/VintagestoryData
 
-# Aguarda alguns segundos para o servidor inicializar
-sleep 20
+# Remove qualquer pasta existente e cria links simbólicos
+rm -rf /root/.config/VintagestoryData/Saves
+rm -rf /root/.config/VintagestoryData/Playerdata
 
-# Envia comandos para o console do servidor
-echo "/serverconfig whitelistmode off" > /proc/$SERVER_PID/fd/0
-#echo "/serverconfig OnlyWhitelisted false" > /proc/$SERVER_PID/fd/0
+ln -s /vintagestory-persistent/Saves /root/.config/VintagestoryData/Saves
+ln -s /vintagestory-persistent/Playerdata /root/.config/VintagestoryData/Playerdata
 
-# Mantém o container vivo com shell interativo
-wait $SERVER_PID
+# Inicia o servidor
+cd /app
+./VintagestoryServer
