@@ -357,7 +357,7 @@
   "HostedMode": false,
   "HostedModeAllowMods": false,
   "VhIdentifier": null,
-  "StartupCommands": "/grantrole arc admin",
+  "StartupCommands": "/player arc role admin",
   "RepairMode": false,
   "AnalyzeMode": false,
   "CorruptionProtection": true,
