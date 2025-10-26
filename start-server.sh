@@ -9,7 +9,7 @@ SERVER_PID=$!
 sleep 20
 
 # Envia comandos para o console do servidor
-echo "/serverconfig whitelistmode off" | ./VintagestoryServer
+echo "/serverconfig whitelistmode off" > /proc/$SERVER_PID/fd/0
 #echo "/serverconfig OnlyWhitelisted false" > /proc/$SERVER_PID/fd/0
 
 # Mantém o container vivo com shell interativo
