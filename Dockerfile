@@ -17,6 +17,7 @@ RUN curl -L -o vintagestory-client.tar.gz "https://cdn.vintagestory.at/gamefiles
     && chmod +x Vintagestory
     
 COPY VintagestoryData/Mods/ /root/.config/VintagestoryData/Mods
+COPY VintagestoryData/serverconfig.json /root/.config/VintagestoryData/serverconfig.json
 
 VOLUME ["/root/.config/VintagestoryData/Saves"]
 
