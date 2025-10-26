@@ -327,12 +327,12 @@
   "DefaultRoleCode": "suplayer",
   "ModPaths": [
     "Mods",
-    "C:\\Users\\adao-\\AppData\\Roaming\\VintagestoryData\\Mods"
+    "/root/.config/VintagestoryData/Mods"
   ],
   "AntiAbuse": 0,
   "WorldConfig": {
     "Seed": null,
-    "SaveFileLocation": "C:\\Users\\adao-\\AppData\\Roaming\\VintagestoryData\\Saves\\default.vcdbs",
+    "SaveFileLocation": "/root/.config/VintagestoryData/Saves/default.vcdbs",
     "WorldName": "A new world",
     "AllowCreativeMode": true,
     "PlayStyle": "surviveandbuild",

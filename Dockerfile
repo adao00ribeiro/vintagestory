@@ -27,5 +27,7 @@ VOLUME ["/root/.config/VintagestoryData"]
 
 EXPOSE 42420/tcp
 EXPOSE 42420/udp
-
+COPY start-server.sh /app/start-server.sh
+RUN chmod +x /app/start-server.sh
 #CMD ["./VintagestoryServer"]
+CMD ["/app/start-server.sh"]
