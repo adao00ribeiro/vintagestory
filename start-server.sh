@@ -9,7 +9,7 @@ SERVER_PID=$!
 sleep 5
 
 # Envia comandos para o console do servidor
-echo "/serverconfig whitelistmode false" > /proc/$SERVER_PID/fd/0
+echo "/serverconfig whitelistmode off" > /proc/$SERVER_PID/fd/0
 #echo "/serverconfig OnlyWhitelisted false" > /proc/$SERVER_PID/fd/0
 
 # Mantém o container vivo com shell interativo
