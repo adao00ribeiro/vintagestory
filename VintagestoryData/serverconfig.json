@@ -357,7 +357,7 @@
   "HostedMode": false,
   "HostedModeAllowMods": false,
   "VhIdentifier": null,
-  "StartupCommands": "/grantrole arc superadmin",
+  "StartupCommands": "/time \n /info seed \n",
   "RepairMode": false,
   "AnalyzeMode": false,
   "CorruptionProtection": true,
