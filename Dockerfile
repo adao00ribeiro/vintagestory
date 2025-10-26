@@ -15,7 +15,17 @@ RUN curl -L -o vintagestory-client.tar.gz "https://cdn.vintagestory.at/gamefiles
     && tar --strip-components=1 -xzf vintagestory-client.tar.gz \
     && rm vintagestory-client.tar.gz \
     && chmod +x Vintagestory
-    
+
+RUN mkdir -p /root/.config/VintagestoryData/BackupSaves    
+RUN mkdir -p /root/.config/VintagestoryData/Backups
+RUN mkdir -p /root/.config/VintagestoryData/Cache    
+RUN mkdir -p /root/.config/VintagestoryData/Logs    
+RUN mkdir -p /root/.config/VintagestoryData/Macros    
+RUN mkdir -p /root/.config/VintagestoryData/Mods    
+RUN mkdir -p /root/.config/VintagestoryData/Playerdata    
+RUN mkdir -p /root/.config/VintagestoryData/Saves
+RUN mkdir -p /root/.config/VintagestoryData/WorldEdit
+
 COPY VintagestoryData/Mods/ /root/.config/VintagestoryData/Mods
 COPY VintagestoryData/serverconfig.json /root/.config/VintagestoryData/serverconfig.json
 
