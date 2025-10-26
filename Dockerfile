@@ -1,7 +1,7 @@
 FROM debian:bookworm-slim
 
 RUN apt-get update && apt-get install -y \
-    libgtk-3-0 libglib2.0-0 libopenal1 ca-certificates curl tar unzip \
+    libgtk-3-0 libglib2.0-0 libopenal1 ca-certificates curl tar unzip nano \
     && curl -sSL https://dot.net/v1/dotnet-install.sh -o dotnet-install.sh \
     && bash dotnet-install.sh --channel 8.0 --install-dir /usr/share/dotnet \
     && rm dotnet-install.sh \
