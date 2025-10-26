@@ -1,0 +1,5 @@
+Game Version: v1.21.5 (Stable)
+10/25/2025 20:40:05: Critical error occurred
+Loaded Mods: 
+OpenTK.Windowing.GraphicsLibraryFramework.GLFWException: Failed to detect any supported platform (this is thrown from OpenTKs default GLFW error handler, if you find this exception inconvenient set your own error callback using GLFWProvider.SetErrorCallback)
+   at OpenTK.Windowing.Desktop.GLFWProvider.DefaultErrorCallback(ErrorCode errorCode, String description)
