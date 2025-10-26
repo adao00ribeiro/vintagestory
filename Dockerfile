@@ -28,4 +28,4 @@ VOLUME ["/root/.config/VintagestoryData"]
 EXPOSE 42420/tcp
 EXPOSE 42420/udp
 
-CMD ["./VintagestoryServer"]
+#CMD ["./VintagestoryServer"]
