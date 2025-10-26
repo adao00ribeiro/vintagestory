@@ -18,8 +18,6 @@ RUN curl -L -o vintagestory-client.tar.gz "https://cdn.vintagestory.at/gamefiles
     
 COPY VintagestoryData/ /root/.config/VintagestoryData/
 
-COPY app/VintagestoryData/Mods/ /root/.config/VintagestoryData/Mods/
-
 VOLUME ["/root/.config/VintagestoryData"]
 
 EXPOSE 42420/tcp
