@@ -15,11 +15,13 @@ RUN curl -L -o vintagestory-client.tar.gz "https://cdn.vintagestory.at/gamefiles
     && tar --strip-components=1 -xzf vintagestory-client.tar.gz \
     && rm vintagestory-client.tar.gz \
     && chmod +x Vintagestory
-
+    
+COPY serverconfig.json /app/serverconfig.json
 # Cria diretórios persistentes
 RUN mkdir -p /data/Worlds /data/Saves /data/Logs /mods
 
 VOLUME ["/data", "/mods" , "playerData"]
+VOLUME ["/root/.config/VintagestoryData"]
 
 EXPOSE 42420/tcp
 EXPOSE 42420/udp
