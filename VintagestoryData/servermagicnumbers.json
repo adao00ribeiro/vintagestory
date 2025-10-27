@@ -8,7 +8,7 @@
   "ChunksToSendPerTick": 192,
   "ChunkRequestTickTime": 20,
   "ChunkColumnsToGeneratePerThreadTick": 30,
-  "ServerAutoSave": 300,
+  "ServerAutoSave": 3600,
   "SpawnChunksWidth": 7,
   "TrackedEntitiesPerClient": 3000,
   "CalendarPacketSecondInterval": 60,
