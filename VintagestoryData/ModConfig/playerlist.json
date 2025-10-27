@@ -4,6 +4,6 @@
     125,
     500
   ],
-  "header": "<strong>ESAUNA </strong>\n<i>{Day} {Month}, Ano & Year {Year}</i>\n<i>—[ {CurPlayers}/{MaxPlayers} ]—</i>",
-  "footer": "<i>discord.gg/</i><i>fKamftNU2G</i>"
+  "header": "<strong><font size=\"20\" color=\"#FFEE00\" align=\"center\">ESAUNA</font></strong>\n<i>{Day} {Month}, Ano | Year {Year}</i>\n<i>—[ {CurPlayers}/{MaxPlayers} ]—</i>",
+  "footer": "<i>discord.gg/<font color=\"#0056FF\">fKamftNU2G</font></i>"
 }
