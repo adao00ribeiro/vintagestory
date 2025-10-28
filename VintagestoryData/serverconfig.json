@@ -103,9 +103,9 @@
       "Color": "LightBlue",
       "LandClaimAllowance": 2147483647,
       "LandClaimMinSize": {
-        "X": 5,
-        "Y": 5,
-        "Z": 5
+        "X": 1,
+        "Y": 1,
+        "Z": 1
       },
       "LandClaimMaxAreas": 99999,
       "AutoGrant": true
