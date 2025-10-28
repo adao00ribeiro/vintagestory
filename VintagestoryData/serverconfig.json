@@ -144,7 +144,7 @@
   "HostedMode": false,
   "HostedModeAllowMods": false,
   "VhIdentifier": null,
-  "StartupCommands": "/player arc role admin",
+  "StartupCommands": "/serverconfig advertise on",
   "RepairMode": false,
   "AnalyzeMode": false,
   "CorruptionProtection": true,
