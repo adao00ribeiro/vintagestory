@@ -144,7 +144,7 @@
   "HostedMode": false,
   "HostedModeAllowMods": false,
   "VhIdentifier": null,
-  "StartupCommands": "/serverconfig advertise on",
+  "StartupCommands": null,
   "RepairMode": false,
   "AnalyzeMode": false,
   "CorruptionProtection": true,
