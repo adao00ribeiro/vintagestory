@@ -136,7 +136,7 @@
   "MaxOwnedGroupChannelsPerUser": 10,
   "OnlyWhitelisted": false,
   "WhitelistMode": 1,
-  "VerifyPlayerAuth": false,
+  "VerifyPlayerAuth": true,
   "DefaultSpawn": null,
   "AllowPvP": true,
   "AllowFireSpread": true,
