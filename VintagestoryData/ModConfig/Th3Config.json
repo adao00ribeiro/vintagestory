@@ -1,7 +1,7 @@
 {
   "IsDirty": false,
   "DiscordConfig": {
-    "Token": "NzY0Mjc2OTEzNTgxMzI2MzM3.G-FQV0.8RewRS1fK3qVJT62uzPNpp2F_fK4fJ5AgAV8u4",
+    "Token": "NzY0Mjc2OTEzNTgxMzI2MzM3.GHwtKi.nQoOoxgl4F9_RcZ6XjWIjHx8SJMxLTn_nTansE",
     "ChannelId": 1435020345064296548,
     "GuildId": 0,
     "UseEphermalCmdResponse": true,
@@ -41,12 +41,59 @@
   "BackCooldown": 60,
   "ExcludeHomeFromBack": false,
   "ExcludeBackFromBack": false,
-  "HomeItem": null,
-  "SetHomeItem": null,
+  "HomeItem": {
+    "Itemclass": 1,
+    "Code": "gloomeclasses:gear-preptempgear",
+    "Stacksize": 1,
+    "Attributes": "AA=="
+  },
+  "SetHomeItem": {
+    "Itemclass": 1,
+    "Code": "gloomeclasses:gear-preptempgear",
+    "Stacksize": 1,
+    "Attributes": "AA=="
+  },
   "SpawnEnabled": true,
   "BackEnabled": false,
   "MessageEnabled": false,
-  "Items": null,
+  "Items": [
+    {
+      "Itemclass": 0,
+      "Code": "game:torch-basic-lit-up",
+      "Stacksize": 1,
+      "Attributes": "AA=="
+    },
+    {
+      "Itemclass": 1,
+      "Code": "game:flint",
+      "Stacksize": 6,
+      "Attributes": "AA=="
+    },
+    {
+      "Itemclass": 1,
+      "Code": "primitivesurvival:smokedmeat-redmeat-raw",
+      "Stacksize": 3,
+      "Attributes": "AA=="
+    },
+    {
+      "Itemclass": 1,
+      "Code": "game:basket-normal-reed",
+      "Stacksize": 1,
+      "Attributes": "AA=="
+    },
+    {
+      "Itemclass": 1,
+      "Code": "game:gear-rusty",
+      "Stacksize": 10,
+      "Attributes": "AA=="
+    },
+    {
+      "Itemclass": 1,
+      "Code": "gloomeclasses:gear-preptempgear",
+      "Stacksize": 3,
+      "Attributes": "AA=="
+    }
+  ],
   "ShutdownEnabled": false,
   "BackupOnShutdown": false,
   "ShutdownTime": "00:00:00",
@@ -57,10 +104,17 @@
   "ShowRole": true,
   "ShowRoles": null,
   "RoleFormat": "<font size=\"18\" color=\"{0}\"><strong>[{1}]</strong></font>{2}",
-  "AdminRoles": ["admin"],
+  "AdminRoles": [
+    "admin"
+  ],
   "WarpEnabled": true,
   "WarpCooldown": -1,
-  "WarpItem": null,
+  "WarpItem": {
+    "Itemclass": 1,
+    "Code": "gloomeclasses:gear-preptempgear",
+    "Stacksize": 1,
+    "Attributes": "AA=="
+  },
   "WarpLocations": null,
   "ChatTimestampFormat": null,
   "EnableSmite": false,
