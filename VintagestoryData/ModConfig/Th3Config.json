@@ -1,7 +1,7 @@
 {
   "IsDirty": false,
   "DiscordConfig": {
-    "Token": "NzY0Mjc2OTEzNTgxMzI2MzM3.GgZRzk.5wlo2bPEE480Rjcji43eDd-SBvhnl15iqu0x7w",
+    "Token": "",
     "ChannelId": 1435020345064296548,
     "GuildId": 0,
     "UseEphermalCmdResponse": true,

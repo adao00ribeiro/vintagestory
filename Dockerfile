@@ -1,7 +1,7 @@
 FROM debian:bookworm-slim
 
 RUN apt-get update && apt-get install -y \
-    libgtk-3-0 libglib2.0-0 libopenal1 ca-certificates curl tar unzip nano \
+    libgtk-3-0 libglib2.0-0 libopenal1 ca-certificates curl tar unzip nano jq \
     && curl -sSL https://dot.net/v1/dotnet-install.sh -o dotnet-install.sh \
     && bash dotnet-install.sh --channel 8.0 --install-dir /usr/share/dotnet \
     && rm dotnet-install.sh \
@@ -31,6 +31,16 @@ COPY VintagestoryData/serverconfig.json /root/.config/VintagestoryData/servercon
 COPY VintagestoryData/servermagicnumbers.json /root/.config/VintagestoryData/servermagicnumbers.json
 COPY VintagestoryData/ModConfig /root/.config/VintagestoryData/ModConfig
 
+ARG DISCORD_TOKEN
+ENV DISCORD_TOKEN=${DISCORD_TOKEN}
+
+
+# 💾 Insere o token dinamicamente no arquivo de configuração JSON
+RUN if [ -n "$DISCORD_TOKEN" ]; then \
+      jq --arg token "$DISCORD_TOKEN" '.DiscordConfig.Token = $token' \
+      /root/.config/VintagestoryData/ModConfig/Th3Config.json > /tmp/config.json && \
+      mv /tmp/config.json /root/.config/VintagestoryData/ModConfig/Th3Config.json; \
+    fi
 
 EXPOSE 42420/tcp
 EXPOSE 42420/udp
