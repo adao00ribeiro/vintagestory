@@ -3,11 +3,11 @@
   "DiscordConfig": {
     "Token": "",
     "ChannelId": 1435020345064296548,
-    "GuildId": 0,
+    "GuildId": 1435428105031520297,
     "UseEphermalCmdResponse": true,
     "DiscordChatColor": "7289DA",
     "ModerationRoles": null,
-    "HelpRoleID": 0,
+    "HelpRoleID": 1435404926548447413,
     "LinkedAccounts": null,
     "RewardIdToName": null,
     "Rewards": false,
